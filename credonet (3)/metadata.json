@@ -1,0 +1,8 @@
+{
+  "name": "Remix: CredoNet",
+  "description": "Digital India 2047 - Unified Gamified Student \u0026 Teacher Wellness and Productivity Workspace powered by SIA AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

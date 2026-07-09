@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "DM Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html.light {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #050505; /* This will be inverted to a very light gray/white */
+}
+
+/* Ensure these elements don't get inverted or double-inverted */
+html.light img,
+html.light video {
+  filter: invert(1) hue-rotate(180deg);
+}
+
